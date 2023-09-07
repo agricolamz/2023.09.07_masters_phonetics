@@ -1,0 +1,144 @@
+---
+title: "Phon research"
+author: "George Moroz"
+date: |
+    | 7th of September, 2023
+output: 
+  beamer_presentation:
+    df_print: kable
+    latex_engine: xelatex
+    citation_package: natbib
+    includes:
+      in_header: "config/presento.sty"
+bibliography: bibliography.bib
+biblio-style: "apalike"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, dev='cairo_pdf')
+options(tinytex.verbose = TRUE)
+```
+
+#  Phonology vs. phonetics
+
+##  Phonology
+
+Phonological theory starts with [@trubetzkoy39]:
+
+* relation of phonology to other studies
+* the nature of phonemes
+* how to determine the phonemes of a language
+* ...
+* phoneme neutralization
+* ...
+
+##  Phonological theories
+
+* Kazan School (Jan Baudouin de Courtenay, N. S. Trubetzkoy);
+* Prague linguistic circle (R. Jakobson, N. S. Trubetzkoy);
+* American Descriptivism (L. Bloomfield);
+* Feature theory [@jacobson52];
+* Generative phonology [@halle62; @halle64; @chomsky64; @chomsky65];
+* Natural phonology [@stampe69];
+* Autosegmental phonology [@goldsmith76];
+* Metrical phonology [@liberman75];
+* Atomic phonology [@dinnsen80];
+* Government Phonology [kaye85];
+* Feature Geometry [@clements85];
+* Lexical phonology [@mohanan86];
+* Harmonic phonology [@legendre90];
+* Element theory [@harris95];
+* Optimality Theory [@prince93];
+* ... \pause it is just the end of the slide not theories...
+
+##  Phonological research
+
+* classification of phonological units
+    * segments
+    * features
+    * syllables
+    * stress
+    * tone
+    * foot
+    * phonological words
+* geographical distribution of phonological units, see [WALS](https://wals.info/feature/6A#2/19.3/152.9)
+* statistical distribution of phonological units
+* universals, see [Konstanz Universals Archive](https://typo.uni-konstanz.de/rara/)
+* phonological alternations (historical and sinchronic)
+* phonologization
+
+##  Databases of phonological inventories
+
+* [LAPSyD](https://lapsyd.huma-num.fr/lapsyd/) [@maddieson13];
+* [PHOIBLE](https://phoible.org/languages) [@phoible19];
+* [The database of Eurasian phonological inventories](https://eurphon.info/) [@nikolaev18];
+  
+##  Phonology of Sign Languages
+
+* Sign Languages are languages! [@stokoe60]
+* articulatory features:
+    * orientation of the hand;
+    * handshape;
+    * movement;
+    * non-manual components;
+* handedness
+* signs vs spelling
+
+# Phonetics?
+
+## Phonetics?
+![](images/01-Phonetics-vs-Phonology.png)
+
+Phonetics is generally assumed to be a subfield that deals with
+**articulatory**, **acoustic** and **perceptional** aspects of phonological units.
+Phonology and phonetics together are supposed to describe organization
+of sounds in languages.
+
+## Articulatory phonetics
+
+* air stream mechanisms
+
+|           | egressive          | ingressive |
+|-----------|--------------------|------------|
+| pulmonic  | majority of sounds | rare       |
+| glottalic | ejectives          | implosives |
+| velaric   |                    | clicks     |
+
+* larynx and vocal cords: phonation types
+    * modal voice
+    * creacky voice
+    * breathy voice
+
+* articulation
+
+## Articulatory phonetics research
+
+* X-ray
+* electropalatography
+* endoscopy
+* ultrasound
+* magnetic resonance imaging
+* ... and others
+
+## Acoustic phonetics
+
+Acoustic phonetics is the study of the acoustic characteristics of speech:
+
+* frequency, 
+* intensity,
+* duration.
+
+## Perceptional phonetics
+
+Acoustic signal is not ears.
+
+* Our perceptual systems are tuned by linguistic experience
+* Phoneme restoration
+
+Perceptional phonetics research: experiments!
+
+# Phon research in the field
+
+# References {.allowframebreaks}
